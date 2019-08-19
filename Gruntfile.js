@@ -53,6 +53,10 @@ module.exports = function(grunt) {
 			js: {
 				files: ['js/main.js'],
 				tasks: ['jshint', 'uglify']
+			},
+			css: {
+				files: ['css/main.css'],
+				tasks: ['csslint', 'cssmin']
 			}
 		},
 	});
